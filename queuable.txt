@@ -2,7 +2,6 @@ public class AsyncExecutionExample implements Queueable {
     public void execute(QueueableContext context){
         Account act= new Account(Name='Suril Sucharita Senapati',Phone='9834380062');
         insert act;
-system.debug('Test');
-system.debug('Test1');
+system.debug('Test@@@@');
     }
 }
